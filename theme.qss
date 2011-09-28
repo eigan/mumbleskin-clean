@@ -1,0 +1,71 @@
+/* ----------------------------------------------------------------------------
+Mumble Skin
+-------------------------------------------------------------------------------
+*/
+
+* {
+}
+
+QToolTip {
+	background: #eee;
+	padding: 3px;
+}
+
+/*********************
+	Channel view
+*********************/
+#qtvUsers { /* channel box */
+	background: #DBE4EB;
+	border: 0px;
+	selection-background-color: #3399cc;
+	selection-color: #f9f9f9;
+}
+
+#qtvUsers::item { /* channel */
+	padding: 2px;
+}
+
+/*********************
+	Log
+**********************/
+#qteLog {
+	background: #f9f9f9;
+	font-size: 12px;
+	padding: 3px;
+}
+
+#qteChat {
+	background: #eee;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.log-time {
+	color: #999;
+}
+
+.log-server {
+	font-weight: bold;
+	color: #333;
+}
+
+.log-target {
+	color: green;
+	text-decoration: none;
+}
+
+.log-source {
+	text-decoration: none;
+	color: #cc3333;
+}
+
+.log-privilege {
+	color: red;
+}
+
+
+.log-channel {
+	color: #006699;
+	text-decoration: none;
+}
+
